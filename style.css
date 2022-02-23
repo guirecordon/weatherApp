@@ -1,0 +1,87 @@
+html,
+body,
+form,
+input,
+h1,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+form {
+  padding: 20px;
+}
+
+#city {
+  display: flex;
+  justify-content: center;
+}
+
+.form-wrap {
+  margin: 0 auto;
+  width: 260px;
+  position: relative;
+}
+
+#cityName {
+  border: black 2px solid;
+  border-radius: 24px;
+  height: 32px;
+  width: 260px;
+  padding: 20px 12px;
+}
+
+#cityRequest {
+  border: black 2px solid;
+  background-color: white;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 32px;
+  position: absolute;
+  top: 26px;
+  right: 24px;
+}
+
+.temperature {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.tempDiv {
+  margin: 0 auto;
+  font-size: 42px;
+  width: 64px;
+  color: black;
+}
+
+.weather-icon {
+  width: 148px;
+  align-items: center;
+}
+
+.description {
+}
+
+img {
+  width: 100%;
+}
+
+.toggle-wrap {
+  display: flex;
+  padding: 10px;
+}
+
+.toggle {
+  padding: 10px;
+}
+
+.item {
+  padding-bottom: 5px;
+}

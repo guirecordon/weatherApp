@@ -15,4 +15,4 @@ Please click below for a live demo.
 [LIVE DEMO](https://guirecordon.github.io/weatherApp/)
 
 You'll find a screenshot of the app below:
-![screen shot of the app](img/readme-screenshot/)
+img/readme-screenshot/weather-api-screenshot.png

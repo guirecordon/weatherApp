@@ -27,7 +27,7 @@ cel.addEventListener('click', handleCelsius);
 
 async function fetchCityWeather(cityName) {
   addCityInfo(cityName);
-  const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=862fd0705c243de0b37a18c82fad1ab3&units=${measure}`, {mode: 'cors'});
+  const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=862fd0705c243de0b37a18c82fad1ab3&units=${measure}`, {mode: 'cors'});
   const weatherData = await response.json();
   const cityTemp = weatherData.main.temp;
   setTemp(cityTemp);

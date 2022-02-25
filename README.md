@@ -11,4 +11,4 @@ There's all there is to it.
 
 Please click below for a live demo.
 
-[LIVE DEMO](https://rawcdn.githack.com/guirecordon/weatherApp/0f416ac78aaaae4a4df8e9da1e924aac79740f74/index.html)
+[LIVE DEMO](https://guirecordon.github.io/weatherApp/)

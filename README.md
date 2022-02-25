@@ -6,9 +6,13 @@ It's a simple weather app that uses an API from the [Open Weather Map](https://w
 
 - First search for the city--spelling counts--and click "Go"
 - Click on either Celsius or Fahrenheit to switch
+- You'll get the time and date, as well as an icon and a description of weather conditions
 
 There's all there is to it.
 
 Please click below for a live demo.
 
 [LIVE DEMO](https://guirecordon.github.io/weatherApp/)
+
+You'll find a screenshot of the app below:
+![screen shot of the app](img/readme-screenshot/)
